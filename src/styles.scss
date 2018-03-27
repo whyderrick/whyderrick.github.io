@@ -1,9 +1,14 @@
 main {
-  margin: 5% auto;
+  margin: 5vh auto;
   height: 90vh;
   width: 30em;
 
   h1, h2 {
     text-align: center;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-around;
   }
 }
