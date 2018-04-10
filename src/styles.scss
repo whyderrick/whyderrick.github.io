@@ -10,5 +10,19 @@ main {
   .social {
     display: flex;
     justify-content: space-around;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
   }
+}
+
+footer {
+  bottom: 2vh;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  text-align: center;
 }
