@@ -4,12 +4,13 @@ main {
   width: 30em;
 
   h1, h2 {
-    text-align: center;
+    text-align: left;
   }
 
   .social {
     display: flex;
     justify-content: space-around;
+    margin-top: 40px;
 
     img {
       width: 30px;
