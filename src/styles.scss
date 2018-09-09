@@ -1,16 +1,26 @@
 main {
   margin: 5vh auto;
-  height: 90vh;
-  width: 30em;
+  width: 36em;
 
-  h1, h2 {
+  h1, h2, h3 {
     text-align: left;
+    text-transform: lowercase;
+  }
+
+  h1 {
+    text-transform: lowercase;
+    border-bottom: 6px double black;
+    text-align: center;
   }
 
   .social {
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
+
+    li {
+      display: inline-block;
+    }
 
     img {
       width: 30px;
@@ -20,10 +30,8 @@ main {
 }
 
 footer {
-  bottom: 2vh;
-  left: 0;
-  right: 0;
-  position: absolute;
+  width: 36em;
+  display: block;
   margin: auto;
   text-align: center;
 }
